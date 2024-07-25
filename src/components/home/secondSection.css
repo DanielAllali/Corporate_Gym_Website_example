@@ -1,0 +1,174 @@
+.secondSectionContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    overflow-y: hidden;
+}
+.secondSectionContainer div.secondSectionPH1 {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #39442b;
+    margin: 0 auto;
+    overflow-y: hidden;
+    transform: translateY(-300px);
+}
+.secondSectionContainer div h1 {
+    font-family: "IBM_Plex_Sans", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.secondSectionContainer div p {
+    text-align: center;
+    font-family: "Neue Haas Grotesk", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.secondSectionContainer div[class*="img"],
+.secondSectionContainer div[class*="imageAnimation"] {
+    width: 20vw;
+    height: 25vw;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    overflow-y: hidden;
+}
+
+.secondSectionContainer div.imageAnimation1 {
+    transform: translateY(9.459vw);
+    margin-left: 5.255vw;
+}
+.secondSectionContainer div.imageAnimation2 {
+    transform: translateX(calc(42.039vw + 500px));
+    margin-top: 5.255vw;
+}
+.secondSectionContainer div.imageAnimation3 {
+    height: 300px;
+    transform: translateX(47.294vw);
+    margin-top: 23.647vw;
+}
+.secondSectionContainer div.img1 {
+    background-image: url("../../media/images/bodyBuilderImg2.jpg");
+}
+.secondSectionContainer div.img2 {
+    background-image: url("../../media/images/bodyBuilderImg1.jpg");
+}
+.secondSectionContainer div.img3 {
+    height: 15.765vw;
+    background-image: url("../../media/images/bodyBuilderImg3.jpg");
+}
+.secondSectionContainer .imagesForSmallScreen {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    overflow-y: hidden;
+    display: none;
+    position: relative;
+}
+.secondSectionContainer .imagesForSmallScreen div[class*="imageAnimation"] {
+    width: 30vw;
+    height: 40vw;
+    transform: translateY(0);
+    transform: translateX(0);
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+}
+.secondSectionContainer .imagesForSmallScreen div[class*="img"] {
+    width: 30vw;
+    height: 40vw;
+}
+.secondSectionContainer .imagesForSmallScreen div.img3 {
+    height: 20vw;
+}
+.secondSectionContainer .imagesForSmallScreen div.imageAnimation3 {
+    height: 20vw;
+    transform: translateY(-23vw);
+}
+
+@media (max-width: 1400px) {
+    .secondSectionContainer div.imageAnimation2 {
+        transform: translateX(calc(47.294vw + 400px));
+    }
+}
+@media (max-width: 1300px) {
+    .secondSectionContainer div.imageAnimation1 {
+        margin-left: 4vw;
+    }
+    .secondSectionContainer div.imageAnimation2 {
+        transform: translateX(calc(52.549vw + 300px));
+    }
+    .secondSectionContainer div.imageAnimation3 {
+        transform: translateX(47.294vw);
+        margin-top: 30vw;
+    }
+}
+@media (max-width: 1170px) {
+    .secondSectionContainer div.imageAnimation1 {
+        margin-left: 3vw;
+    }
+    .secondSectionContainer div.imageAnimation2 {
+        transform: translateX(855px);
+    }
+}
+@media (max-width: 1090px) {
+    .secondSectionContainer div.imageAnimation1 {
+        margin-left: 1vw;
+    }
+    .secondSectionContainer div.imageAnimation2 {
+        transform: translateX(calc(63.058vw + 150px));
+    }
+}
+@media (max-width: 990px) {
+    .secondSectionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: 0;
+    }
+    .secondSectionContainer .imagesForSmallScreen {
+        display: flex;
+    }
+    .secondSectionContainer
+        > div:not(.secondSectionPH1):not(.imagesForSmallScreen) {
+        display: none;
+    }
+    .secondSectionContainer div.secondSectionPH1 {
+        width: 70vw;
+        height: 60vw;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 630px) {
+    .secondSectionContainer div h1 {
+        font-size: 2rem;
+    }
+    .secondSectionContainer div p {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 400px) {
+    .secondSectionContainer {
+        justify-content: start;
+    }
+    .secondSectionContainer div h1 {
+        font-size: 1.5rem;
+    }
+    .secondSectionContainer div p {
+        font-size: 0.5rem;
+    }
+}

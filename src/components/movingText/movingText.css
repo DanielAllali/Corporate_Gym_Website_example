@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url("../../media/fonts/Merriweather/Merriweather-LightItalic.ttf");
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.movingTextCont {
+    width: 3072px;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background: none;
+}
+
+.movingText {
+    display: flex;
+    white-space: nowrap;
+    gap: 100px;
+    animation: moveText 20s linear infinite;
+}
+
+.movingText h1 {
+    margin: 0;
+    font-size: 7rem;
+    font-family: "Merriweather", sans-serif;
+}

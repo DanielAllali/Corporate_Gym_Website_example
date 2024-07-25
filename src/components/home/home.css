@@ -1,0 +1,315 @@
+.firstSec {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../media/images/gymBgc.jpg");
+    background-size: cover;
+    background-position: center 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+.firstSec button {
+    font-family: "straight", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background: #fafe86;
+    color: white;
+    border: 4px solid #fafe86;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 180px;
+    height: 180px;
+    color: #39442b;
+    font-weight: bold;
+    margin-right: -600px;
+    margin-bottom: -50px;
+    transition: color 0.5s, transform 1s;
+}
+
+.firstSec .gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    background-image: #39442b;
+}
+
+.firstSec .label {
+    position: relative;
+    top: -1px;
+}
+
+.firstSec .transition {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 0.7s;
+    background-color: #39442b;
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.firstSec button:hover {
+    animation: circleBtn 1s;
+    color: #fafe86;
+}
+.firstSec button:hover .transition {
+    width: 14em;
+    height: 14em;
+}
+
+.firstSec button:active {
+    transform: scale(0.97);
+}
+
+@keyframes circleBtn {
+    0% {
+        transform: scale(0.95);
+        backdrop-filter: blur(10px);
+    }
+    25% {
+        transform: scale(0.9);
+        backdrop-filter: blur(7px);
+    }
+    100% {
+        transform: scale(1);
+        backdrop-filter: blur(0);
+    }
+}
+
+.firstSec p {
+    width: 384px;
+    text-align: center;
+    font-size: 1.075rem;
+    color: white;
+}
+
+.secondSection {
+    height: 100vh;
+    background-color: #fdfdf1;
+    overflow-y: hidden;
+}
+.thirdSection {
+    width: 100vw;
+    height: 50vh;
+    background-color: #39442b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.thirdSection h1 {
+    font-size: 3rem;
+    font-family: "IBM_Plex_Sans", Arial, Helvetica, sans-serif;
+}
+
+.thirdSection table {
+    width: 90vw;
+    border-collapse: collapse;
+    background-color: #2f3626;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: "IBM_Plex_Sans", "straight", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.thirdSection table thead {
+    background-color: #333c2a;
+}
+
+.thirdSection table thead th {
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #4a5238;
+    font-weight: normal;
+}
+
+.thirdSection table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.thirdSection table tbody tr:hover {
+    background-color: #444e36;
+}
+
+.thirdSection table tbody td {
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+    border: 1px solid #4a5238;
+}
+
+.forthSection {
+    width: 100vw;
+    background-color: #fdfdf1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100vw;
+    background-color: #39442b;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+footer > div h1 {
+    color: #fdfdf1;
+    font-family: "deltaModern", "Franklin Gothic Medium", "Arial Narrow", Arial,
+        sans-serif;
+    letter-spacing: 8px;
+}
+footer > div div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer div + div {
+    width: 80vw;
+    padding: 10px;
+    margin: 0 auto;
+    gap: 5px;
+}
+footer div + div hr {
+    width: 80vw;
+    border: 1px solid #fdfdf1;
+}
+footer div + div h5 {
+    color: #fdfdf1;
+    font-family: "straight", Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background: none;
+    color: #fdfdf1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family: "straight", Arial, Helvetica, sans-serif;
+}
+
+.btn span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+}
+
+.btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #f9fd85;
+}
+
+.btn:hover .btn-text-one {
+    top: -100%;
+}
+
+.btn:hover .btn-text-two {
+    top: 50%;
+}
+.fifthSection {
+    width: 100vw;
+    background-color: #fafe86;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 860px) {
+    .thirdSection h1 {
+        font-size: 3rem;
+    }
+
+    .thirdSection table thead th {
+        font-size: 1.2rem;
+    }
+
+    .thirdSection table tbody td {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 800px) {
+    .firstSec button {
+        margin-right: -500px;
+    }
+    .btn {
+        width: 100px;
+        height: 30px;
+    }
+
+    .btn span {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 700px) {
+    .firstSec button {
+        display: none;
+    }
+    .thirdSection {
+        height: auto;
+        padding: 20px;
+    }
+    .thirdSection table {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .thirdSection table tr {
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdSection table td,
+    .thirdSection table th {
+        width: auto;
+        height: 100px;
+    }
+}
+@media (max-width: 500px) {
+    .btn {
+        width: 70px;
+        height: 20px;
+    }
+
+    .btn span {
+        font-size: 0.8rem;
+    }
+}
