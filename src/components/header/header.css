@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     background-color: #fdfdf1;
     position: fixed;
-    z-index: 9999999999999999999999999999999999999999999999;
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
     transition: margin-top 0.5s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
