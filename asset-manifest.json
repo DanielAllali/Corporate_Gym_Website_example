@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Corporate_Gym_Website_example/static/css/main.d6761aaa.css",
+    "main.js": "/Corporate_Gym_Website_example/static/js/main.04b7f3fa.js",
+    "static/js/453.68693753.chunk.js": "/Corporate_Gym_Website_example/static/js/453.68693753.chunk.js",
+    "static/media/bodyBuilderImg1.jpg": "/Corporate_Gym_Website_example/static/media/bodyBuilderImg1.03135544951746b6c28a.jpg",
+    "static/media/gymBgc.jpg": "/Corporate_Gym_Website_example/static/media/gymBgc.a95210212e19561cec4d.jpg",
+    "static/media/bodyBuilderImg3.jpg": "/Corporate_Gym_Website_example/static/media/bodyBuilderImg3.ae17e05439e540a8e590.jpg",
+    "static/media/bodyBuilderImg2.jpg": "/Corporate_Gym_Website_example/static/media/bodyBuilderImg2.c5847f2936d31a80a676.jpg",
+    "static/media/RobotoMono-VariableFont_wght.ttf": "/Corporate_Gym_Website_example/static/media/RobotoMono-VariableFont_wght.e14e25b7c497634efdfe.ttf",
+    "static/media/bootstrap-icons.woff?": "/Corporate_Gym_Website_example/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/Merriweather-LightItalic.ttf": "/Corporate_Gym_Website_example/static/media/Merriweather-LightItalic.7156ba6851d2a94064dd.ttf",
+    "static/media/bootstrap-icons.woff2?": "/Corporate_Gym_Website_example/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/IBMPlexSansCondensed-Light.ttf": "/Corporate_Gym_Website_example/static/media/IBMPlexSansCondensed-Light.0fcfc64128ffe8b37fc9.ttf",
+    "static/media/NeueHaasDisplayMediu.ttf": "/Corporate_Gym_Website_example/static/media/NeueHaasDisplayMediu.32921edb532f55cbfdc6.ttf",
+    "static/media/ProActive_logo_png.png": "/Corporate_Gym_Website_example/static/media/ProActive_logo_png.00e53c464f4446c51769.png",
+    "static/media/ProActive_logo_circle.png": "/Corporate_Gym_Website_example/static/media/ProActive_logo_circle.b7bfced05c613801c6b7.png",
+    "static/media/Deltamodern.ttf": "/Corporate_Gym_Website_example/static/media/Deltamodern.2deef885db50f4ae119e.ttf",
+    "index.html": "/Corporate_Gym_Website_example/index.html",
+    "main.d6761aaa.css.map": "/Corporate_Gym_Website_example/static/css/main.d6761aaa.css.map",
+    "main.04b7f3fa.js.map": "/Corporate_Gym_Website_example/static/js/main.04b7f3fa.js.map",
+    "453.68693753.chunk.js.map": "/Corporate_Gym_Website_example/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6761aaa.css",
+    "static/js/main.04b7f3fa.js"
+  ]
+}
