@@ -1,9 +1,9 @@
 .firstSec {
     width: 100vw;
     height: 100vh;
-    background-image: url("../../media/images/gymBgc.jpg");
+    /* background-image: url("../../media/images/gymBgc.jpg");
     background-size: cover;
-    background-position: center 10%;
+    background-position: center 10%; */
     background: none;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,7 @@
     justify-content: end;
     gap: 50px;
     padding-bottom: 20px;
+    overflow-x: hidden;
 }
 .background-video {
     position: absolute;
