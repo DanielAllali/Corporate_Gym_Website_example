@@ -7,6 +7,7 @@ import SecondSection from "./SecondSection";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import Faq from "./Faq";
 import Contact from "./Contact";
+import videoBg from "../../media/images/videoBg.mp4";
 
 const Home = () => {
     const { language, setLanguage } = useContext(LanguageContext);
@@ -15,6 +16,10 @@ const Home = () => {
         <div>
             <Header />
             <section className="firstSec">
+                <video autoPlay muted loop class="background-video">
+                    <source src={videoBg} type="video/mp4" />
+                    Your browser does not support the video.
+                </video>
                 <button
                     onClick={() => {
                         document
