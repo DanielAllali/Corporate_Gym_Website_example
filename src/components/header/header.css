@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     background-color: #fdfdf1;
     position: fixed;
-    z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+    z-index: 9999;
     transition: margin-top 0.5s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -128,7 +128,7 @@ header div select option,
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 99999999999999999999999999999999999999999999999;
+    z-index: 9999;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .navSmallContainer {
@@ -138,7 +138,7 @@ header div select option,
     position: fixed;
     top: 0;
     right: -90vw;
-    z-index: 99999999999999;
+    z-index: 99999;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -155,11 +155,18 @@ header div select option,
     font-weight: bold;
     margin-bottom: 50px;
     margin-top: 30px;
+    overflow: visible;
 }
 .navSmallContainer ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     border-collapse: collapse;
     position: relative;
+    overflow: visible;
     right: -90vw;
     transition: right 0.7s;
 }
@@ -242,5 +249,10 @@ header div select option,
 @media (max-width: 500px) {
     header h1 {
         font-size: 2rem;
+    }
+    .navSmallContainer div.circleLogo {
+        width: 150px;
+        height: 150px;
+        margin-right: -100px;
     }
 }
