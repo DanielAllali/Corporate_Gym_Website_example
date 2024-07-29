@@ -21,3 +21,19 @@
     font-family: "IBM_Plex_Sans";
     src: url("./media/fonts/IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-Light.ttf");
 }
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #bbb;
+}

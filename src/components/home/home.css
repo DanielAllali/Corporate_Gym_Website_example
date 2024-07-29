@@ -285,7 +285,7 @@ footer div + div h5 {
         margin-right: -500px;
     }
     .btn {
-        width: 100px;
+        width: 150px;
         height: 30px;
     }
 
@@ -316,13 +316,24 @@ footer div + div h5 {
         height: 100px;
     }
 }
-@media (max-width: 500px) {
+
+@media (max-width: 550px) {
     .btn {
-        width: 70px;
-        height: 20px;
+        width: 100px;
+        height: 30px;
     }
 
     .btn span {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 400px) {
+    .btn {
+        width: 70px;
+        height: 30px;
+    }
+
+    .btn span {
+        font-size: 0.6rem;
     }
 }

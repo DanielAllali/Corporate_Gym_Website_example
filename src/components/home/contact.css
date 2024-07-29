@@ -83,6 +83,9 @@
     border: none;
     border-bottom: 1px solid #39442b;
 }
+.contactDiv > div + div form table tr td input:focus {
+    outline: none;
+}
 
 .contactDiv > div + div form button {
     width: 200px;
